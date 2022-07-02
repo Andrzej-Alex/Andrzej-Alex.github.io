@@ -76,7 +76,7 @@ var controls = new function() {
     this.nbrLevels = 2;
     this.opacity = 1.0;
     this.color = '#3366ff';
-    this.type = '2D Cantor';
+    this.type = 'Cantor';
 }
 
 function initGui() {
