@@ -1,11 +1,5 @@
-/***********
- * cantor2A.js
- * M. Laszlo
- * 2D Cantor set with GUI
- * April 2020
- ***********/
 
- // Need to keep camera centered on center point
+ // Need to keep camera centered on center point - Trzeba trzymać camerę wyśrodkowaną - w punkcie centralnym
 
 let camera, scene, renderer;
 let cameraControls;
