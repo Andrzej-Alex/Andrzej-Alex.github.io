@@ -91,7 +91,7 @@ function initGui() {
 function update() {
     if (cantor)
         scene.remove(cantor);
-    let f = controls.type === 'Sierpinski carpet' ? retainSierpinskiCarpet : retainCantor;
+    let f = controls.type === 'Dywan Sierpinskiego' ? retainSierpinskiCarpet : retainCantor;
     cantor = makeCantor(f, controls.nbrLevels, mat, len);    
     scene.add(cantor);
 }
