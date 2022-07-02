@@ -1,9 +1,3 @@
-/***********
- * cantor2C.js
- * M. Laszlo
- * 2D Cantor / Sierpinski carpet with GUI
- * April 2020
- ***********/
 
 
 let camera, scene, renderer;
