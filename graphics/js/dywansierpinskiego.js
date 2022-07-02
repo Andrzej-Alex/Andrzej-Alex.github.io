@@ -1,10 +1,3 @@
-/***********
- * cantor2C.js
- * M. Laszlo
- * 2D Cantor / Sierpinski carpet with GUI
- * April 2020
- ***********/
-
 
 let camera, scene, renderer;
 let cameraControls;
@@ -91,7 +84,7 @@ function initGui() {
     gui.add(controls, 'nbrLevels', 0, 5).step(1).onChange(update);
     gui.add(controls, 'opacity', 0.1, 1.0).step(0.1);
     gui.addColor(controls, 'color');
-    let objectTypes = ['2D Cantor', 'Sierpinski carpet'];
+    let objectTypes = ['Cantor', 'Dywan Sierpinskiego'];
     gui.add(controls, 'type', objectTypes).onChange(update);
 }
 
