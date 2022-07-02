@@ -73,7 +73,7 @@ function retainSierpinskiCarpet(x, z, len) {
 
 
 var controls = new function() {
-    this.nbrLevels = 2;
+    this.nbrLevels = 3;
     this.opacity = 1.0;
     this.color = '#3366ff';
     this.type = 'Cantor';
